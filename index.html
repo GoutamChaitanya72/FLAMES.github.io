@@ -1,0 +1,19 @@
+<html>
+<head>
+  <meta charset="UTF-8"> <!-- Declare the character encoding of the document -->
+  <title>FLAMES Game</title> <!-- Add a title for the document -->
+  <link rel="stylesheet" href="style.css"> <!-- Move the CSS code to an external file -->
+</head>
+<body>
+  <h1>FLAMES Game</h1>
+  <p>Enter two names and click Play</p>
+  <!-- HTML code for creating the elements -->
+  <form id="flames-form"> <!-- Use a form element to group the inputs and the button -->
+    <input id="name1" type="text" placeholder="Enter first name" required> <!-- Add the required attribute to validate the inputs -->
+    <input id="name2" type="text" placeholder="Enter second name" required>
+    <button id="play" type="submit">Play</button> <!-- Change the type to submit to trigger the form submission -->
+  </form>
+  <p id="result"></p>
+  <script src="script.js"></script> <!-- Move the JavaScript code to an external file -->
+</body>
+</html>
